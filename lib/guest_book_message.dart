@@ -3,5 +3,3 @@ class GuestBookMessage {
   final String name;
   final String message;
 }
-
-enum Attendding { yes, no, unknown }

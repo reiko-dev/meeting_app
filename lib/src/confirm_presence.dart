@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:meeting_app/guest_book_message.dart';
+import 'package:meeting_app/application_state.dart';
 import 'package:meeting_app/src/widgets.dart';
 
-class YesNoSelection extends StatelessWidget {
-  const YesNoSelection(
+class ConfirmPresence extends StatelessWidget {
+  const ConfirmPresence(
       {required this.state, required this.onSelection, Key? key})
       : super(key: key);
 
